@@ -7,7 +7,8 @@ public class Calculator {
 	}
 	
 	public double add (double x, double y){
-		return 0;
+		double a = x+y;
+		return a;
 		}
 	
 	public double subract (double x, double y){
@@ -19,10 +20,16 @@ public class Calculator {
 		}
 	
 	public double multiply (double x, double y){
-		return 0;
+		double m = x*y;
+		return m;
 		}
 	
 	public double remainder (double x, double y){
 		return 0;
 		}
+	public String toString (){
+		//return member names, IDs, and repository URI
+		String s= "Lee Hangyu,Nam Muntaek,Lee Minju_https://github.com/ssonac/AJOU_Lab4";
+		return s;
+	}
 }
