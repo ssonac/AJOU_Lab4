@@ -1,10 +1,6 @@
 
 public class Calculator {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
 	
 	public double add (double x, double y){
 		double a = x+y;
@@ -12,11 +8,18 @@ public class Calculator {
 		}
 	
 	public double subract (double x, double y){
-		return 0;
+		double result=x-y;
+		return result;
 		}
 	
 	public double divide (double x, double y){
-		return 0;
+		if(y==0)
+		{
+			System.out.println("Error: Division is Zero!!");
+			return -1;
+		}
+		double result=x/y;
+		return result;
 		}
 	
 	public double multiply (double x, double y){
