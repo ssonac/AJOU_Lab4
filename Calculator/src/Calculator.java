@@ -25,7 +25,9 @@ public class Calculator {
 		}
 	
 	public int remainder (double x, double y){
-		return 0;
+		double result=x/y;
+		return (int)result;
+	
 		}
 	public String toString (){
 		//return member names, IDs, and repository URI
