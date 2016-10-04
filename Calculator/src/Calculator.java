@@ -31,7 +31,11 @@ public class Calculator {
 	
 	public int remainder (double x, double y){
 		//int result=x/y;
-//		return result;
+		//return result;
 		return -1;
 		}
+	
+	public String toString (){
+		return null;
+	}
 }
