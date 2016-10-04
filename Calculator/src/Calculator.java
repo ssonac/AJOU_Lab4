@@ -32,7 +32,7 @@ public class Calculator {
 
 	public String toString() {
 		// return member names, IDs, and repository URI
-		String s = "Lee Hangyu, Nam Muntaek, Lee Minju_ssonac, muntaekNam, Minnnn_https://github.com/ssonac/AJOU_Lab4";
+		String s = "Lee Hangyu, Nam Muntae, Lee Minju_ssonac, muntaeNam, Minnnn_https://github.com/ssonac/AJOU_Lab4";
 		return s;
 	}
 }
