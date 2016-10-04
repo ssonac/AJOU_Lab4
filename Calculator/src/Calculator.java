@@ -32,6 +32,6 @@ public class Calculator {
 	public int remainder (double x, double y){
 		//int result=x/y;
 //		return result;
-		return 0;
+		return -1;
 		}
 }
