@@ -3,7 +3,7 @@ public class Calculator {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Calculator P = new Calculator();
 	}
 	
 	public double add (double x, double y){
@@ -24,12 +24,12 @@ public class Calculator {
 		return m;
 		}
 	
-	public double remainder (double x, double y){
+	public int remainder (double x, double y){
 		return 0;
 		}
 	public String toString (){
 		//return member names, IDs, and repository URI
-		String s= "Lee Hangyu,Nam Muntaek,Lee Minju_ssonac,muntaekNam,Minnnn_https://github.com/ssonac/AJOU_Lab4";
+		String s= "Lee Hangyu, Nam Muntaek, Lee Minju_ssonac, muntaekNam, Minnnn_https://github.com/ssonac/AJOU_Lab4";
 		return s;
 	}
 }
