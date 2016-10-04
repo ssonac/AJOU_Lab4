@@ -25,8 +25,8 @@ public class Calculator {
 		}
 	
 	public int remainder (double x, double y){
-		double result=x%y;
-		return (int)result;
+		int result=(int)(x%y);
+		return result;
 	
 		}
 	public String toString (){
